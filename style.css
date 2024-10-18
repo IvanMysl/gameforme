@@ -49,3 +49,29 @@
     font-weight: 700;
     cursor: pointer;
 }
+@media screen and (max-width:480px) {
+    /* .winner{
+        height: 10px;
+    }
+    .finishTitle{
+        height: 10px;
+    } */
+     .finish{
+        position: static;
+        /* margin-bottom: 20px; */
+     }
+     .table__inner{
+        justify-content: start;
+     }
+     .winner{
+        height: 30px;
+     }
+     .finishTitle{
+        height: 30px;
+     }
+     .td{
+        font-size: 60px;
+        height: 80px;
+        width: 80px;
+     }
+}
