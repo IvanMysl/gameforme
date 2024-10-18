@@ -8,8 +8,18 @@
 </head>
 <body>
     <div class="container">
-        
+        <div class="finish finishWin">
+              <h1 class="finishTitle">Игра закончена</h1>
+            <h1 class="winner"></h1>
+            <button class="newGame">Новая игра</button>
+        </div>
+        <div class="finish">
+            <h1 class="finishTitle">Игра закончена</h1>
+          <h1 class="winner">Ничья</h1>
+          <button class="newGame">Новая игра</button>
+      </div>
         <div class="table__inner">
+
             <h1 class="info__title">Ход игрока 1 (Х)</h1>
         <table class="table" border="1">
             <tr>
@@ -27,7 +37,9 @@
                 <td class="td td8"></td>
                 <td class="td td9"></td> 
         </table>
+        <button class="cancel">Отменить ход</button>
     </div>
+
     </div>
 </body>
 <script src="./index.js"></script>

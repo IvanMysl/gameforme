@@ -1,13 +1,33 @@
+.finish{
+    background-color: yellow;
+    width: 100%;
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.newGame{
+    font-size: 20px;
+    height: 40px;
+    width: 220px;
+    background-color: #55d6f7;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
 .table__inner{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
+
 }
 .table{
     border: 2px solid #000000;
     border-collapse: collapse;
+    margin-bottom: 40px;
 }
 .td{
     width: 100px;
@@ -19,4 +39,13 @@
     cursor: pointer;
 
 }
-
+.cancel{
+    background-color: rgb(228, 228, 228);
+    border: none;
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    font-size: 22px;
+    font-weight: 700;
+    cursor: pointer;
+}
