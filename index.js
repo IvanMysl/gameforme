@@ -316,9 +316,11 @@ buttonCancel.addEventListener("click", () => {
       }
       lastPress = -1;
       buttonCancel.style.border = "none";
+      buttonCancel.style.color = "black";
       showButton();
     } else {
-      buttonCancel.style.border = "3px solid red";
+      buttonCancel.style.border = "4px solid red";
+      buttonCancel.style.color = "red";
     }
   }
 });
@@ -375,6 +377,7 @@ td1.addEventListener("click", () => {
       control = !control;
       lastPress = 1;
       buttonCancel.style.border = "none";
+      buttonCancel.style.color = "black";
       showButton();
       win();
       finish();
@@ -395,6 +398,7 @@ td2.addEventListener("click", () => {
       control = !control;
       lastPress = 2;
       buttonCancel.style.border = "none";
+      buttonCancel.style.color = "black";
       showButton();
       win();
       finish();
@@ -415,6 +419,7 @@ td3.addEventListener("click", () => {
       control = !control;
       lastPress = 3;
       buttonCancel.style.border = "none";
+      buttonCancel.style.color = "black";
       showButton();
       win();
       finish();
@@ -435,6 +440,7 @@ td4.addEventListener("click", () => {
       control = !control;
       lastPress = 4;
       buttonCancel.style.border = "none";
+      buttonCancel.style.color = "black";
       showButton();
       win();
       finish();
@@ -456,6 +462,7 @@ td5.addEventListener("click", () => {
       control = !control;
       lastPress = 5;
       buttonCancel.style.border = "none";
+      buttonCancel.style.color = "black";
       showButton();
       win();
       finish();
@@ -476,6 +483,7 @@ td6.addEventListener("click", () => {
       control = !control;
       lastPress = 6;
       buttonCancel.style.border = "none";
+      buttonCancel.style.color = "black";
       showButton();
       win();
       finish();
@@ -496,6 +504,7 @@ td7.addEventListener("click", () => {
       control = !control;
       lastPress = 7;
       buttonCancel.style.border = "none";
+      buttonCancel.style.color = "black";
       showButton();
       win();
       finish();
@@ -516,6 +525,7 @@ td8.addEventListener("click", () => {
       control = !control;
       lastPress = 8;
       buttonCancel.style.border = "none";
+      buttonCancel.style.color = "black";
       showButton();
       win();
       finish();
@@ -536,6 +546,7 @@ td9.addEventListener("click", () => {
       control = !control;
       lastPress = 9;
       buttonCancel.style.border = "none";
+      buttonCancel.style.color = "black";
       showButton();
       win();
       finish();
