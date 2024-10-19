@@ -1,46 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Game</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="finish finishWin">
-              <h1 class="finishTitle">Игра закончена</h1>
-            <h1 class="winner"></h1>
-            <button class="newGame">Новая игра</button>
-        </div>
-        <div class="finish">
-            <h1 class="finishTitle">Игра закончена</h1>
-          <h1 class="winner">Ничья</h1>
-          <button class="newGame">Новая игра</button>
+      <div class="menuStart">
+        <p class="mainTitle">
+          Здесь можно поиграть в <strong>крестики-нолики</strong>!
+        </p>
+        <button class="startGame">Начать игру</button>
       </div>
-        <div class="table__inner">
-
-            <h1 class="info__title">Ход игрока 1 (Х)</h1>
+      <div class="finish finishWin">
+        <h1 class="finishTitle">Игра окончена</h1>
+        <h1 class="winner"></h1>
+        <button class="newGame">Новая игра</button>
+      </div>
+      <div class="finish">
+        <h1 class="finishTitle">Игра окончена</h1>
+        <h1 class="winner">Ничья</h1>
+        <button class="newGame">Новая игра</button>
+      </div>
+      <div class="table__inner">
+        <h1 class="info__title">Ход игрока 1 (Х)</h1>
         <table class="table" border="1">
-            <tr>
-                <td class="td td1"></td>
-                <td class="td td2"></td>
-                <td class="td td3"></td>
-              </tr>
-              <tr>
-                <td class="td td4"></td>
-                <td class="td td5"></td>
-                <td class="td td6"></td>
-              </tr>
-              <tr>
-                <td class="td td7"></td>
-                <td class="td td8"></td>
-                <td class="td td9"></td> 
+          <tr>
+            <td class="td td1"></td>
+            <td class="td td2"></td>
+            <td class="td td3"></td>
+          </tr>
+          <tr>
+            <td class="td td4"></td>
+            <td class="td td5"></td>
+            <td class="td td6"></td>
+          </tr>
+          <tr>
+            <td class="td td7"></td>
+            <td class="td td8"></td>
+            <td class="td td9"></td>
+          </tr>
         </table>
-        <button class="cancel">Отменить ход</button>
-    </div>
 
+        <button class="cancel">Отменить ход</button>
+      </div>
     </div>
-</body>
-<script src="./index.js"></script>
+  </body>
+  <script src="./index.js"></script>
 </html>

@@ -12,6 +12,11 @@ const buttonCancel = document.querySelector(".cancel");
 const buttonNewGame = document.querySelector(".newGame");
 const finishMenu = document.querySelector(".finishWin");
 const winner = document.querySelector(".winner");
+const startGame = document.querySelector(".startGame");
+const startMenu = document.querySelector(".menuStart");
+startGame.addEventListener("click", () => {
+  startMenu.style.display = "none";
+});
 const CheckContains = (teg) => {
   if (teg.textContent === "") {
     return true;
